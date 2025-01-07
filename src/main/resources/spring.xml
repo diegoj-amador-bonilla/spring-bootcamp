@@ -1,5 +1,24 @@
-<beans>
-    <bean id="Dev" class="org.example.service.Dev">
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- bean definitions here -->
+
+
+
+    <bean id="dev" class="org.example.service.Dev">
+<!--        <property name="age" value="12" />-->
+<!--        <constructor-arg index="0" value ="14" />-->
+<!--        <property name="laptop" ref="lap1" />-->
+<constructor-arg ref="lap1"/>
+    </bean>
+    
+
+
+    <bean id="dev1" class="org.example.service.Dev">
+    </bean>
+
+    <bean id="lap1" class="org.example.service.Laptop">
     </bean>
 </beans>
