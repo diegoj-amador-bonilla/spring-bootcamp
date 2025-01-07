@@ -1,5 +1,6 @@
 package com.diego.demo;
 
+import com.diego.demo.services.Alien;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
