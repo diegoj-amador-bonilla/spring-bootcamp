@@ -1,6 +1,6 @@
 package org.example.service;
 
-public class Laptop {
+public class Laptop implements Computer {
     public Laptop(){
         System.out.println("Laptop Constructor");
     }

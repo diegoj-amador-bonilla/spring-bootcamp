@@ -7,18 +7,19 @@
 
 
 
-    <bean id="dev" class="org.example.service.Dev">
+    <bean id="dev" class="org.example.service.Dev" autowire="byType">
+        <property name="com" ref="desk1" />
+    </bean>
 <!--        <property name="age" value="12" />-->
 <!--        <constructor-arg index="0" value ="14" />-->
 <!--        <property name="laptop" ref="lap1" />-->
-<constructor-arg ref="lap1"/>
-    </bean>
+
     
 
 
-    <bean id="dev1" class="org.example.service.Dev">
+    <bean id="desk1" class="org.example.service.Desktop">
     </bean>
 
-    <bean id="lap1" class="org.example.service.Laptop">
+    <bean id="com" class="org.example.service.Laptop">
     </bean>
 </beans>
