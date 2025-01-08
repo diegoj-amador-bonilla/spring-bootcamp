@@ -1,6 +1,6 @@
 package com.diego.demo.services;
 
-import com.diego.demo.interfaces.Computer;
+import com.diego.demo.serviceinterface.Computer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

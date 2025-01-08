@@ -1,4 +1,4 @@
-package com.diego.demo.interfaces;
+package com.diego.demo.serviceinterface;
 
 public interface Computer {
 

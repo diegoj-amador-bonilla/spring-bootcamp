@@ -1,4 +1,4 @@
-package com.diego.demo.services;
+package com.diego.demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

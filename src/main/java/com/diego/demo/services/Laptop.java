@@ -1,7 +1,6 @@
 package com.diego.demo.services;
 
-import com.diego.demo.interfaces.Computer;
-import org.springframework.context.annotation.Primary;
+import com.diego.demo.serviceinterface.Computer;
 import org.springframework.stereotype.Component;
 
 @Component
