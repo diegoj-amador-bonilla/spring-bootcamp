@@ -1,6 +1,8 @@
 package org.example.service;
 
-public class Desktop implements Computer{
+import org.example.serviceinterface.Computer;
+
+public class Desktop implements Computer {
     public Desktop(){
         System.out.println("Desktop Constructor");
     }

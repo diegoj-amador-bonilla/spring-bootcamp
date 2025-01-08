@@ -1,6 +1,8 @@
 package org.example.service;
 
 
+import org.example.serviceinterface.Computer;
+
 public class Dev {
    private Computer com;
 
