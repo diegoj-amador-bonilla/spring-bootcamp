@@ -1,4 +1,4 @@
-package io.javabrains.springbootquickstart.data;
+package io.javabrains.springbootquickstart.dao;
 
 public class Topics {
     private String id;

@@ -1,6 +1,6 @@
 package io.javabrains.springbootquickstart.controller;
 
-import io.javabrains.springbootquickstart.data.Topics;
+import io.javabrains.springbootquickstart.dao.Topics;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
