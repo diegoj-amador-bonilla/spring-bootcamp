@@ -1,16 +1,16 @@
 package io.javabrains.springbootquickstart.dao;
 
-public class Topics {
+public class Topic {
     private String id;
     private String name;
     private String description;
 
 
-    public Topics(){
+    public Topic(){
 
     }
 
-    public Topics(String id, String name, String description) {
+    public Topic(String id, String name, String description) {
         super();
         this.id = id;
         this.name = name;
