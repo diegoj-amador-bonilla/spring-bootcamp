@@ -1,28 +1,38 @@
-package io.javabrains.springbootquickstart.dao;
+package courses.dao;
 
 
+import io.javabrains.springbootquickstart.dao.Topic;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 
 @Entity
-public class Topic {
+public class Course {
 
     @Id
     private String id;
     private String name;
     private String description;
+    private Topic topic;
 
+    public Topic getTopic() {
+        return topic;
+    }
 
-    public Topic(){
+    public void setTopic(Topic topic) {
+        this.topic = topic;
+    }
+
+    public Course(){
 
     }
 
-    public Topic(String id, String name, String description) {
+    public Course(String id, String name, String description, String topicId) {
         super();
         this.id = id;
         this.name = name;
         this.description = description;
+        this.topic = new Topic(topicId,"","");
     }
 
     public String getId() {
