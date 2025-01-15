@@ -4,6 +4,7 @@ package courses.dao;
 import io.javabrains.springbootquickstart.dao.Topic;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 
 
 @Entity
@@ -13,6 +14,7 @@ public class Course {
     private String id;
     private String name;
     private String description;
+    @ManyToOne
     private Topic topic;
 
     public Topic getTopic() {
