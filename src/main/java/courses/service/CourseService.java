@@ -3,7 +3,7 @@ package courses.service;
 import courses.dao.Course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import courses.dao.CourseRepository;
+import courses.repository.CourseRepository;
 
 import java.util.ArrayList;
 import java.util.List;

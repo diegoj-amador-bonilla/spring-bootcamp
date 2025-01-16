@@ -1,12 +1,11 @@
 package io.javabrains.springbootquickstart.service;
 
 import io.javabrains.springbootquickstart.dao.Topic;
-import io.javabrains.springbootquickstart.dao.TopicRepository;
+import io.javabrains.springbootquickstart.repository.TopicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.data.repository.CrudRepository;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 

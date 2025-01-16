@@ -1,5 +1,6 @@
-package courses.dao;
+package courses.repository;
 
+import courses.dao.Course;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
