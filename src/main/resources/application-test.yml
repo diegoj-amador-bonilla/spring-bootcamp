@@ -1,0 +1,11 @@
+spring.jpa.hibernate.ddl-auto: update
+
+my:
+  greeting: Hello
+  list:
+    Values: One,Two,Three
+
+db:
+  connection: "{connectionString: 'http://____',userName: 'Diego', password: 'pass'}"
+  host: 127.0.0.1
+  port: 2400
